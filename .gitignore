@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+venv/
+
+# Notebooks
+*.ipynb
+
+# Imágenes
+images/
+
+# Archivos temporales o generados
+*.zip
+
+# Archivos ocultos de macOS
+.DS_Store
