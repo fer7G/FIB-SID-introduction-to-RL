@@ -1,11 +1,13 @@
 
-# 🧠 Práctica 2 — Introducción al Aprendizaje por Refuerzo
+# Introducción al Aprendizaje por Refuerzo
 
-**Explorando el entorno `CliffWalking-v0` de Gymnasium**
+[![en](https://img.shields.io/badge/language-en-blue.svg)](README.en.md)
 
-Este repositorio contiene una librería modular de agentes de aprendizaje por refuerzo, así como múltiples scripts de entrenamiento y experimentación con el entorno `CliffWalking-v0`.
+![](QLdemo.gif)
 
-Este trabajo es parte de la asignatura de Sistemas Inteligentes Distribuidos (SID) de la FIB.
+Este repositorio contiene una librería modular de agentes de aprendizaje por refuerzo, así como múltiples scripts de entrenamiento y experimentación con el entorno `CliffWalking-v0` de Gymnasium.
+
+Este trabajo es parte de la asignatura de Sistemas Inteligentes Distribuidos (SID) de la FIB-UPC.
 
 ## 🚀 Requisitos
 
@@ -16,7 +18,7 @@ Este trabajo es parte de la asignatura de Sistemas Inteligentes Distribuidos (SI
 pip install -r requirements.txt
 ```
 
-> Las dependencias principales son [`gymnasium`](https://gymnasium.farama.org/) y `pygame` (para visualización interactiva).
+> Las dependencias principales son [`gymnasium`](https://gymnasium.farama.org/) y `pygame` (para visualización).
 
 ## 🧠 Agentes disponibles
 

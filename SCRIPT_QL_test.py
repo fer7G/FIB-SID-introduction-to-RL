@@ -9,7 +9,7 @@ from agents import ValueIterationAgent, DirectEstimationAgent, QLearningAgent
 env = gym.make("CliffWalking-v0", is_slippery=True, render_mode="none")
 # Crear entorno de visualización
 env_vis = gym.make("CliffWalking-v0", is_slippery=True, render_mode="human")
-env.metadata['render_fps'] = 120
+env.metadata['render_fps'] = 60
 
 # Crear agente Q-Learning
 agent = QLearningAgent(env=env, env_vis=env_vis, alpha=0.05, gamma=1, epsilon=0.1, T_max=200)
