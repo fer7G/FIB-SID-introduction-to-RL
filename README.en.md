@@ -8,7 +8,7 @@ This repository contains a modular library of reinforcement learning agents, alo
 
 This work is part of the Distributed Intelligent Systems (SID) course at FIB-UPC.
 
-## 🚀 Requirements
+## Requirements
 
 * Python 3.11
 * Install dependencies with:
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 > The main dependencies are [`gymnasium`](https://gymnasium.farama.org/) and `pygame` (for visualization).
 
-## 🧠 Available Agents
+## Available Agents
 
 Each file in `agents/` implements an algorithm:
 
@@ -27,7 +27,7 @@ Each file in `agents/` implements an algorithm:
 * `DirectEstimationAgent`: Agent that estimates the environment dynamics with random exploration.
 * `QLearningAgent`: Agent that learns directly from experience, without knowing the model.
 
-## 🧪 Testing and Experimentation Scripts
+## Testing and Experimentation Scripts
 
 * `SCRIPT_[AGENT]_test.py`:
   Runs basic agent training and displays:
